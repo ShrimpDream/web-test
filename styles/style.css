@@ -1,29 +1,35 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>RoadMap</title>
-        <link href="styles/style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css3?family=Noto+Sans+SC&display=swap" rel="stylesheet">
-    </head>
-    <script src="scripts/main.js" defer></script>
-    <body>
-        <h1>Dance With Devil</h1>
-        <img src="images/trade.png" alt="trade-with-devil">
-        <h2>Steps</h2>
-        <ul>
-            <li><a href="https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/HTML_basics">Web基础知识</a></li>
-            <li>数据库</li>
-        </ul>
-        <h2>Books</h2>
-        <ol>
-            <li>STL源码剖析</li>
-            <li>编程珠玑</li>
-            <li>The C Programming Language</li>
-            <li>The GO Programming Language</li>
-        </ol>
-        <h2>Tutorials</h2>
-        <h2>Open Courses</h2>
-        <button>切换用户</button>
-    </body>
-</html>
+html {
+    /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 16px; 
+    /* Google fonts 输出的 CSS */
+    font-family: 'Noto Sans SC', sans-serif;
+    background-color: #00539F;
+  }
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 2px 2px 1px black;
+  }
+  
+  p, li {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+  }
